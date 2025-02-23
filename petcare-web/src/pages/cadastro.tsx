@@ -1,15 +1,7 @@
-import Image from "next/image";
-import localFont from "next/font/local";
-import React from "react";
+import SingUpForm from "../components/cadastro-form";
 
-export default function Cadastro() {
-    return (
-      <div>
-  
-        <h1>
-          petcare
-        </h1>
-  
-      </div>
-    );
-  }
+const LoginPage = () => {
+  return <SingUpForm />;
+};
+
+export default LoginPage;
